@@ -19,6 +19,6 @@ Link to the video : https://youtu.be/dQw4w9WgXcQ?t=43s
 
 ### Disable windows defender
 The commands below are commands to run on Administrator Powershell
-Disable real time monitoring : Set-MpPreference -DisableRealtimeMonitoring $true -Force
-See state of RealtimeMonitoring : Get-MpPreference | Select-Object -Property DisableRealtimeMonitoring
-Disable windows defender firewall : Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+  Disable real time monitoring : Set-MpPreference -DisableRealtimeMonitoring $true -Force
+  See state of RealtimeMonitoring : Get-MpPreference | Select-Object -Property DisableRealtimeMonitoring
+  Disable windows defender firewall : Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
